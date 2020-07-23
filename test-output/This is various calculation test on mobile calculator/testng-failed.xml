@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [This is various calculation test on mobile calculator]">
+  <listeners>
+    <listener class-name="org.angelLiteApp.android.listeners.TestListener"/>
+    <listener class-name="org.angelLiteApp.android.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Calculator Test(failed)">
+    <classes>
+      <class name="org.angelLiteApp.android.Tests.CalculatorTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="addition_Of_Three_Number"/>
+        </methods>
+      </class> <!-- org.angelLiteApp.android.Tests.CalculatorTest -->
+    </classes>
+  </test> <!-- Calculator Test(failed) -->
+</suite> <!-- Failed suite [This is various calculation test on mobile calculator] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="This is various calculation test on mobile calculator" >
+    <listeners>
+        <listener class-name="org.demoApp.android.listeners.TestListener"/>
+        <listener class-name="org.demoApp.android.listeners.AnnotationTransformer"/>
+    </listeners>
+    
+   <test  verbose="2"  name="Calculator Test">
+   <classes>
+   <class name="org.demoApp.android.Tests.CalculatorTest">
+   </class>
+   </classes>
+   </test>
+ 
+ 
+    </suite>
+    
+    
+  
