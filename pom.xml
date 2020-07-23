@@ -93,7 +93,7 @@
  
  <configuration>
  <!-- From Email address -->
- <from>vidya.bhushan40@gmail.com</from>
+ <from>er.mohammedaslam@gmail.com</from>
  
  <!--  Email subject -->
  <subject>Calcultor demo test Mobile App Automation Report</subject>
@@ -104,7 +104,7 @@
                                     <p>This is appium automation test report for demo test done on calculator mobile application for android device</p>
                                     <p>Please, find the attached html report which contains the test result status with proper steps</p>
                                     <p>Thanks,</p>
-                                    <p>Deependra Pathak</p>  
+                                    <p>Mohammed Aslam</p>  
                                     ]]>
                           </htmlMessage>
  
